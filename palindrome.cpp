@@ -6,7 +6,7 @@ int main(){
     cin >> num ;
     int temp = num ;
     while(num>0){
-    l=l*10+(num%10);
+    l= l*10+(num%10) ;
     num = num/10;
     }
     cout << "the reverse of a number is : " << l << endl;
